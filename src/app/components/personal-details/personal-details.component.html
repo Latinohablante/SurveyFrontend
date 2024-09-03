@@ -3,6 +3,7 @@
     <p><b> Nombre: </b> {{user?.firstname}} </p>
     <p><b> Apellido: </b> {{user?.lastname}}</p>
     <p><b> Pais: </b> {{user?.country}}</p>
+    <p><b> Email: </b> {{user?.username}}</p>
     <button *ngIf="userLoginOn && !editMode" (click)="editMode=true"  class="btn btn-dark"><img
         src="https://cdn.icon-icons.com/icons2/1572/PNG/96/3592815-compose-create-edit-edit-file-office-pencil-writing_107734.png"
         width="8%" alt="editar" />Editar Datos Personales</button>

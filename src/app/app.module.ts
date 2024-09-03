@@ -16,6 +16,7 @@ import { LoginService } from './services/auth/login.service';
 import { JwtInterceptorService } from './services/auth/jwt-interceptor.service';
 import { ErrorInterceptorService } from './services/auth/error-interceptor.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,7 @@ import { ErrorInterceptorService } from './services/auth/error-interceptor.servi
     DashboardComponent,
     LoginComponent,
     NavComponent,
-    PersonalDetailsComponent
+    PersonalDetailsComponent,
   ],
   imports: [
     BrowserModule,
